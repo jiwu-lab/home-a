@@ -6,41 +6,48 @@ date: 2026-08-04
 type: landing
 
 sections:
-  - block: hero
+  - block: markdown
     id: hero
     content:
-      title: |
-        <div style="font-family: 'Nanum Myeongjo', 'Gowun Batang', serif; font-size: 2.5rem; line-height: 1.3; font-weight: 500; color: #FFFFFF;">
-          하나님의 마음을 품고 밝은 세상을<br>만들어 가는 꿈을 가진 박기현입니다.
-        </div>
+      title: ''
       text: |
-        <div class="mt-8 flex justify-center gap-4 flex-wrap">
-          <a class="btn btn-primary" href="#contact" style="width: 200px; display: flex; align-items: center; justify-content: center;">강연/교육 문의하기</a>
-          <a class="btn btn-outline-primary" href="#contact" style="width: 200px; display: flex; align-items: center; justify-content: center;">사역 동참 / 후원 안내</a>
+        <div class="apple-hero-img-container">
+          <img src="/apple-hero-product.png" alt="Hero Product" width="400" class="product-shadow">
+        </div>
+        <div class="text-center mt-6">
+          <h1 class="apple-display" style="font-size: 3.5rem; margin-bottom: 0.5rem;">
+            박기현
+          </h1>
+          <p style="font-size: 1.5rem; color: #1d1d1f; margin-bottom: 2rem; font-weight: 400;">
+            하나님의 마음을 품고 밝은 세상을 만들어 갑니다.
+          </p>
+          <div class="flex justify-center gap-4 flex-wrap">
+            <a class="btn btn-primary" href="#contact">강연/교육 문의하기</a>
+            <a class="btn btn-outline-primary" href="#projects-lectures">활동 및 강연 살펴보기</a>
+          </div>
         </div>
     design:
-      css_class: 'tesla-hero-block'
-      background:
-        image:
-          filename: hero-background.png
-          filters:
-            brightness: 0.6
+      css_class: 'apple-tile-parchment'
+      columns: '1'
 
   - block: markdown
     id: about
     content:
-      title: '소개 (About)'
+      title: ''
       text: |-
-        **"하나님의 마음을 품고 밝은 세상을 만들어 가는 꿈을 가진 박기현입니다.**
-        
-        저는 하나님의 마음을 품은 사람들을 양성하고, 선한 사람들의 따뜻한 네트워크에 AI 기술이라는 유용한 도구를 더해 나갑니다. 이를 통해 선교의 지경을 넓히고, 세상 곳곳을 밝게 비추는 사역의 여정을 여러분과 함께 걸어가고 싶습니다."
-
-        <br>
-        
-        * 🌱 **사람 양성**
-        * 🤝 **선한 연대**
-        * 💻 **AI 기술 선교**
+        <div class="text-center mx-auto" style="max-width: 800px;">
+          <h2 class="apple-display" style="font-size: 2.5rem; margin-bottom: 1.5rem;">소개</h2>
+          <p style="font-size: 1.25rem; line-height: 1.6; margin-bottom: 2rem; font-weight: 400;">
+            "저는 하나님의 마음을 품은 사람들을 양성하고, 선한 사람들의 따뜻한 네트워크에 AI 기술이라는 유용한 도구를 더해 나갑니다. 이를 통해 선교의 지경을 넓히고, 세상 곳곳을 밝게 비추는 사역의 여정을 여러분과 함께 걸어가고 싶습니다."
+          </p>
+          <ul style="font-size: 1.1rem; line-height: 2; list-style: none; padding: 0;">
+            <li>🌱 <strong style="color: #ffffff;">사람 양성</strong></li>
+            <li>🤝 <strong style="color: #ffffff;">선한 연대</strong></li>
+            <li>💻 <strong style="color: #ffffff;">AI 기술 선교</strong></li>
+          </ul>
+        </div>
     design:
+      css_class: 'apple-tile-dark'
       columns: '1'
 
   - block: markdown
