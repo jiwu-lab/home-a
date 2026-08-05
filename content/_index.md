@@ -15,10 +15,10 @@ sections:
           <img src="/apple-hero-product.png" alt="Hero Product" width="400" class="product-shadow">
         </div>
         <div class="text-center mt-6">
-          <h1 class="apple-display" style="font-size: 3.5rem; margin-bottom: 0.5rem;">
+          <h1 class="apple-display" style="font-size: 2.5rem; margin-bottom: 0.5rem;">
             박기현
           </h1>
-          <p style="font-size: 1.5rem; color: #1d1d1f; margin-bottom: 2rem; font-weight: 400;">
+          <p style="font-size: 1.15rem; color: #1d1d1f; margin-bottom: 2rem; font-weight: 400;">
             하나님의 마음을 품고 밝은 세상을 만들어 갑니다.
           </p>
           <div class="flex justify-center gap-4 flex-wrap">
@@ -36,8 +36,8 @@ sections:
       title: ''
       text: |-
         <div class="text-center mx-auto" style="max-width: 800px;">
-          <h2 class="apple-display" style="font-size: 2.5rem; margin-bottom: 1.5rem;">소개</h2>
-          <p style="font-size: 1.25rem; line-height: 1.6; margin-bottom: 2rem; font-weight: 400;">
+          <h2 class="apple-display" style="font-size: 2rem; margin-bottom: 1.5rem;">소개</h2>
+          <p style="font-size: 1.1rem; line-height: 1.6; margin-bottom: 2rem; font-weight: 400;">
             "저는 하나님의 마음을 품은 사람들을 양성하고, 선한 사람들의 따뜻한 네트워크에 AI 기술이라는 유용한 도구를 더해 나갑니다. 이를 통해 선교의 지경을 넓히고, 세상 곳곳을 밝게 비추는 사역의 여정을 여러분과 함께 걸어가고 싶습니다."
           </p>
           <ul style="font-size: 1.1rem; line-height: 2; list-style: none; padding: 0;">

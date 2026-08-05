@@ -1,20 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&family=Noto+Serif+KR:wght@400;500;600;700&display=swap');
+
 /* Apple Design System Overrides */
 
 /* Typography */
 body {
-  font-family: "SF Pro Text", system-ui, -apple-system, sans-serif !important;
+  font-family: "Noto Sans KR", system-ui, -apple-system, sans-serif !important;
   color: #1d1d1f !important;
-  line-height: 1.47 !important;
+  line-height: 1.6 !important;
+  font-size: 15px !important;
 }
 
 h1, h2, h3, h4, h5, h6, .apple-display {
-  font-family: "SF Pro Display", system-ui, -apple-system, sans-serif !important;
+  font-family: "Noto Serif KR", serif !important;
   font-weight: 600 !important;
-  letter-spacing: -0.374px !important;
+  letter-spacing: -0.5px !important;
   color: inherit;
 }
 
-h1 { letter-spacing: -0.28px !important; }
+h1 { letter-spacing: -0.5px !important; }
 
 /* Remove all shadows for a flat, clean look (except product renders) */
 *, ::before, ::after {
