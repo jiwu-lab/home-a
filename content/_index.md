@@ -6,32 +6,42 @@ date: 2026-08-04
 type: landing
 
 sections:
-  - block: resume-biography-3
+  - block: hero
+    id: hero
     content:
-      # Choose a user profile to display (a folder name within `content/authors/`)
-      username: me
+      title: |
+        <div style="font-family: 'Nanum Myeongjo', 'Gowun Batang', serif; font-size: 2.5rem; line-height: 1.3; font-weight: 500; color: #FFFFFF;">
+          하나님의 마음을 품고 밝은 세상을<br>만들어 가는 꿈을 가진 박기현입니다.
+        </div>
       text: |
-        <div class="mt-4 mb-6 text-2xl" style="font-family: 'Nanum Myeongjo', 'Gowun Batang', serif; line-height: 1.6;">
-          "하나님의 마음을 품고 밝은 세상을 만들어 가는<br>꿈을 가진 박기현입니다."
+        <div class="mt-8 flex justify-center gap-4 flex-wrap">
+          <a class="btn btn-primary" href="#contact" style="width: 200px; display: flex; align-items: center; justify-content: center;">강연/교육 문의하기</a>
+          <a class="btn btn-outline-primary" href="#contact" style="width: 200px; display: flex; align-items: center; justify-content: center;">사역 동참 / 후원 안내</a>
         </div>
-        <div class="mt-4">
-          <a class="btn btn-primary" href="#contact">강연/교육 문의하기</a>
-          <a class="btn btn-outline-primary ml-3" href="#contact">사역 동참 / 후원 안내</a>
-        </div>
-      # Show a call-to-action button under your biography? (optional)
-      # button:
-      #   text: 강연/교육 문의하기
-      #   url: '#contact'
     design:
-      # Use the new Gradient Mesh which automatically adapts to the selected theme colors
+      css_class: 'tesla-hero-block'
       background:
-        gradient_mesh:
-          enable: true
-      name:
-        size: md
-      avatar:
-        size: medium
-        shape: circle
+        image:
+          filename: hero-background.png
+          filters:
+            brightness: 0.6
+
+  - block: markdown
+    id: about
+    content:
+      title: '소개 (About)'
+      text: |-
+        **"하나님의 마음을 품고 밝은 세상을 만들어 가는 꿈을 가진 박기현입니다.**
+        
+        저는 하나님의 마음을 품은 사람들을 양성하고, 선한 사람들의 따뜻한 네트워크에 AI 기술이라는 유용한 도구를 더해 나갑니다. 이를 통해 선교의 지경을 넓히고, 세상 곳곳을 밝게 비추는 사역의 여정을 여러분과 함께 걸어가고 싶습니다."
+
+        <br>
+        
+        * 🌱 **사람 양성**
+        * 🤝 **선한 연대**
+        * 💻 **AI 기술 선교**
+    design:
+      columns: '1'
 
   - block: markdown
     id: projects-lectures

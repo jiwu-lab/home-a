@@ -1,0 +1,62 @@
+/* Tesla Design System Overrides */
+
+/* Typography */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 500 !important;
+}
+
+/* Remove all shadows for a flat, clean look */
+*, ::before, ::after {
+  box-shadow: none !important;
+}
+
+/* Buttons */
+.btn {
+  border-radius: 4px !important;
+  font-weight: 500 !important;
+  transition: border-color 0.33s, background-color 0.33s, color 0.33s, box-shadow 0.25s !important;
+  min-height: 40px;
+}
+
+.btn-primary {
+  background-color: #3E6AE1 !important;
+  color: #FFFFFF !important;
+  border: 3px solid transparent !important;
+}
+
+.btn-primary:hover {
+  background-color: #3457b2 !important;
+}
+
+.btn-outline-primary {
+  background-color: #FFFFFF !important;
+  color: #393C41 !important;
+  border: 3px solid transparent !important;
+}
+
+.btn-outline-primary:hover {
+  background-color: #F4F4F4 !important;
+}
+
+/* Navigation Frosted Glass */
+nav, .hbx-header {
+  background-color: rgba(255, 255, 255, 0.75) !important;
+  backdrop-filter: blur(10px) !important;
+  -webkit-backdrop-filter: blur(10px) !important;
+}
+
+/* Hero Section adjustments to simulate 100vh */
+.tesla-hero-block {
+  min-height: 100vh !important;
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+
+.tesla-hero-content {
+  text-align: center;
+  z-index: 10;
+  color: #FFFFFF;
+  margin-bottom: 2rem;
+}
